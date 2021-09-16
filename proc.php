@@ -11,7 +11,7 @@ $res = str_replace(" ","+",$ytsearchfinal);
 
 
 
-    $ytapi = file_get_contents("https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=$res&type=video&key=AIzaSyBauPdSbIDo0hfgjdO_iz2TcyRyoPuuIXk");
+    $ytapi = file_get_contents("https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=$res&type=video&key=YOUR-API-KEY");
     $ytdecode = json_decode($ytapi, true);
     $id = $ytdecode['items'][0]['id']['videoId'];
     $channelname = $ytdecode['items'][0]['snippet']['channelTitle'];
