@@ -1,0 +1,26 @@
+.image {
+    background-color: blue;
+    height: 150px;
+}
+
+.main {
+    height: 200px;
+    background-color: chartreuse;
+}
+
+.content {
+    background-color: crimson;
+}
+
+.card {
+    border-radius: 2px 3px 4px;
+}
+
+.sInput {
+    height: 40px;
+}
+
+.btn {
+    height: 40px;
+    margin-top: 15px;
+}
